@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+//import Greet from './components/Greet';
+//import Greetclass from './components/Greetclass';
+//import Count from './count';
+//import EventBind from './components/EventBind';
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        
+
+       {/* <Greet name = "Adeeb" roll = "1324">
+       <p>This is my name</p>
+       </Greet>
+       <Greet name = "Shad" roll = "1563">
+       <p> this is not my name </p>
+       </Greet> 
+       <Greetclass name = "Gadha" roll = "1005">
+         <p>
+           Hi how r u?
+         </p>
+
+       </Greetclass> */}
+       {/* <Count /> */}
+       {/* <EventBind /> */}
+       <ParentComponent />
+
     </div>
   );
 }
