@@ -8,7 +8,11 @@ import './App.css';
 //import ParentComponent from "./components/ParentComponent";
 // import ConditionalRendering from './components/ConditionalRendering';
 // import ListRendering from './components/ListRendering';
-import NameList from './components/NameList';
+// import NameList from './components/NameList';
+// import GetRequestClass from './components/GetRequestClass';
+// import GetRequesthook from './components/GetRequesthook';
+import PostRequestclass from './components/PostRequestclass';
+
 function App() {
   return (
     <div className="App">
@@ -30,7 +34,9 @@ function App() {
       
       {/* <ConditionalRendering /> */}
        {/* <ListRendering /> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* <GetRequestClass /> */}
+      <PostRequestclass />
     </div>
   );
 }
